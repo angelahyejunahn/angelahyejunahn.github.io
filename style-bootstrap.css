@@ -60,7 +60,7 @@ main {
 	max-width: 100%;
 }
 
-main .mainBackground .overlay {
+main .mainBackground .imageOverlay {
 	background-color: rgba(0,0,0,0.43);
 	position: absolute;
 	height: 100%;
