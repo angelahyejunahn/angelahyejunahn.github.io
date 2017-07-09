@@ -61,14 +61,14 @@ main {
 }
 
 main .mainBackground .imageOverlay {
-	background-color: rgba(0,0,0,0.43);
+	background-color: rgba(0,0,0,0.50);
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	bottom: 0px;
 	z-index: 1;
 	color: #ffffff;
-	padding-left: 240px;
+	padding-left: 120px;
 	padding-top: 240px;
 }
 
