@@ -1,0 +1,102 @@
+/* MAIN PAGE */
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+}
+
+nav {
+	background-color: #fff;
+}
+
+nav .navContainer {
+	margin: 0 4.5em;
+	border-bottom: 1px solid #e1e1e1;
+	text-align: center;
+	height: 6em;
+	padding-top: 2em;
+}
+
+nav .navPage{
+    display: inline;
+    padding: 1em;
+}
+
+nav .navPage a{
+    font-size: 1em;
+    color: #9C9C9C;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+nav .navPage a:hover {
+    color: #CE17F1;
+    text-decoration: none;
+}
+
+nav .selected a{
+	color: #CE17F1;
+	text-decoration: none;
+}
+
+nav .homePage a {
+	color: #222222;
+	font-size: 2.25em;
+	font-family: Georgia, sans-serif;
+	font-weight: normal;
+	letter-spacing: .4em;
+}
+
+nav .homePage a:hover {
+	color: #222222;
+}
+
+main {
+	padding: 8em;
+}
+
+.eachWork {
+	text-align: center;
+	width: 279px;
+}
+
+.eachWork a:hover {
+	text-decoration: none;
+}
+
+.workImage {
+	border: 1px solid #e1e1e1;
+	padding: 1em;
+}
+
+.workImage:hover {
+	border: 1px solid #CE17F1;
+}
+
+.workDescription {
+	font-size: .8em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.designType {
+	color: #000;
+	font-weight: bold;
+}
+
+.designRole {
+	color: #000;
+}
+
+
+/* FOOTER */
+
+footer {
+	display: inline-block;
+	font-size: .8em;
+	height: 5em;
+	width: 100%;
+    color: #ccc;
+    text-align: center;
+    padding-top: 2em;
+}
