@@ -1,4 +1,4 @@
-/* WORK PAGE */
+/* MAIN PAGE */
 
 body {
 	font-family: 'Arial', sans-serif;
@@ -54,6 +54,13 @@ nav .homePage a:hover {
 main {
 	padding: 8em;
 }
+
+.mainBackground img {
+	max-width: 100%;
+}
+
+
+/* WORK PAGE */
 
 .eachWork {
 	text-align: center;
