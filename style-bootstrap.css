@@ -80,6 +80,7 @@ main .mainBackground .imageOverlay {
 .eachWork {
 	text-align: center;
 	width: 279px;
+	margin: auto;
 }
 
 .eachWork a:hover {
