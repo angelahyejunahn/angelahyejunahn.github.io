@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* MAIN PAGE */
 
 body {
@@ -53,7 +58,7 @@ nav .homePage a:hover {
 }
 
 main {
-	padding: 8em;
+	margin: 8em;
 }
 
 .mainBackground img {
@@ -77,14 +82,11 @@ main .mainBackground .imageOverlay {
 
 /* WORK PAGE */
 
-.eachWork {
-	text-align: center;
-	width: 279px;
-	margin: auto;
-}
-
-.eachWork a:hover {
-	text-decoration: none;
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	list-style: none;
 }
 
 .workImage {
@@ -99,7 +101,8 @@ main .mainBackground .imageOverlay {
 .workDescription {
 	font-size: .8em;
 	padding-top: 1em;
-	padding-bottom: 2em;
+	padding-bottom: 3em;
+	text-align: center;
 }
 
 .designType {
