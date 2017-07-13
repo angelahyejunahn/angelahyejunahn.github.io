@@ -61,8 +61,16 @@ main {
 	margin: 8em;
 }
 
+.mainBackground {
+	position: relative;
+	width: 100%;
+}
+
 .mainBackground img {
-	max-width: 100%;
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
 
 main .mainBackground .imageOverlay {
@@ -70,11 +78,24 @@ main .mainBackground .imageOverlay {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	bottom: 0px;
-	z-index: 1;
-	color: #ffffff;
-	padding-left: 120px;
-	padding-top: 240px;
+	top: 0;
+	left: 0;
+}
+
+.caption { 
+  color: #fff;
+  font-size: 1.5em;
+  position: absolute;
+  margin: auto;
+  overflow: hidden;
+  top: 0;
+  left: 5em;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;    
 }
 
 
@@ -113,6 +134,11 @@ main .mainBackground .imageOverlay {
 
 .workImage:hover {
 	border: 1px solid #CE17F1;
+}
+
+.nda {
+	border: 1px solid #e1e1e1;
+	padding: 1em;
 }
 
 .workDescription {
