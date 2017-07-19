@@ -110,6 +110,10 @@ main .mainBackground .imageOverlay {
 	list-style: none;
 }
 
+.doublewidth {
+	flex: 0 1 78%;
+}
+
 .sectiontitle {
 	font-weight: bold;
 	color: #9c9c9c;
@@ -119,12 +123,8 @@ main .mainBackground .imageOverlay {
 
 .subsectiontitle {
 	font-style: italic;
-	font-size: .8em;
+	font-size: .9em;
 	margin-bottom: .7em;
-}
-
-.setwidth {
-	width: 279px;
 }
 
 .workImage {
