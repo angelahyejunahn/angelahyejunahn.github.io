@@ -111,7 +111,7 @@ main .mainBackground .imageOverlay {
 }
 
 .doublewidth {
-	flex: 0 1 78%;
+	flex: 0 1 100%;
 }
 
 .sectiontitle {
