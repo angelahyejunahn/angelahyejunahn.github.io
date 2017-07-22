@@ -15,7 +15,7 @@ nav {
 }
 
 nav .navContainer {
-	margin: 0 4.5em;
+	margin: 0;
 	border-bottom: 1px solid #e1e1e1;
 	text-align: center;
 	height: 6em;
@@ -25,7 +25,7 @@ nav .navContainer {
 nav .navPage{
     display: inline;
     white-space: nowrap;
-    padding: 1em;
+    padding: 2em;
 }
 
 nav .navPage a{
@@ -106,11 +106,21 @@ main .mainBackground .imageOverlay {
 .flex-container {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	list-style: none;
 }
 
-.doublewidth {
+.flex-container ul {
+	padding-left: 3em;
+	list-style-type: circle;
+	margin-bottom: 0;
+}
+
+.paddingBottom {
+	padding-bottom: 1em;
+}
+
+.fullwidth {
 	flex: 0 1 100%;
 }
 
@@ -155,6 +165,29 @@ main .mainBackground .imageOverlay {
 
 .designRole {
 	color: #000;
+}
+
+.button {
+	border: 1px solid #CE17F1;
+	width: 279px;
+	height: 50px;
+	text-align: center;
+	padding: 14px;
+	margin: auto;
+}
+
+.button > a {
+	color: #CE17F1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.button:hover {
+	background-color: #CE17F1;
+}
+
+.button:hover > a {
+	color :#ffffff;
 }
 
 
