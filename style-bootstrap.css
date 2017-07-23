@@ -85,17 +85,18 @@ main .mainBackground .imageOverlay {
 .caption { 
   color: #fff;
   font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
   position: absolute;
   margin: auto;
   overflow: hidden;
-  top: 0;
-  left: 5em;
+  top: 10px;
+  left: 3em;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align: left;
   display: flex;
   justify-content: left;
-  align-items: center;    
+  align-items: center;
 }
 
 
@@ -110,14 +111,27 @@ main .mainBackground .imageOverlay {
 	list-style: none;
 }
 
-.flex-container ul {
-	padding-left: 3em;
-	list-style-type: circle;
-	margin-bottom: 0;
+.flex-item5 {
+	flex: 0 1 16.5%;
+	text-align: center;
 }
 
-.paddingBottom {
-	padding-bottom: 1em;
+.flex-item5 > p {
+	font-size: 0.8em;
+	line-height: 200%;
+}
+
+.flex-item3 {
+	flex: 0 1 27.5%;
+}
+
+.flex-item3 > p {
+	font-size: 0.8em;
+	line-height: 200%;
+}
+
+.flex-item3 > img {
+	margin-right: 1em;
 }
 
 .fullwidth {
