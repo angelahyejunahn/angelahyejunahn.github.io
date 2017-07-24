@@ -207,10 +207,19 @@ main .mainBackground .imageOverlay {
 
 /* ABOUTCONTACT PAGE*/
 
+.quote {
+	padding-left: 4em;
+	padding-right: 4em;
+}
+
+.quote > a {
+	color: #CE17F1;
+}
+
 .accordion {
     margin:0 auto;
     font-size:1em;
-    width:40em;
+    width: 90%;
     padding:10px;
 }
 .accordion ul {
