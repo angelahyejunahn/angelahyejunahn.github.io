@@ -272,6 +272,14 @@ main .mainBackground .imageOverlay {
     width: 100%;
 }
 
+.myIcon > i {
+	vertical-align: bottom;
+}
+
+.myIcon:hover {
+	text-decoration: none;
+}
+
 
 
 /* FOOTER */
