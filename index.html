@@ -1,53 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Welcome to my website!">
+		<meta name="description" content="Angela Ahn's Website">
 		<meta name="keywords" content="Angela Ahn, UX Design, Portfolio">
 		<meta name="Author" content="Angela Ahn">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-		<title>Angela Ahn's Page</title> 
-
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-		<!-- custom css -->
-		<link href="style-bootstrap.css" rel="stylesheet">
-
-		<!-- Google Font -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="https://kit.fontawesome.com/c408b1a6fb.js" crossorigin="anonymous"></script>
+		<title>Angela Ahn - UX Designer</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top">
-			<div class="navContainer">
-				<div class="navPage">
-					<a href="design.html">DESIGN</a>
-				</div>
-
-				<div class="navPage homePage">
-					<a href="index.html">Angela Ahn</a>
-				</div>
-
-				<div class="navPage">
-					<a href="aboutcontact.html">ABOUT + CONTACT</a>
-				</div>
+		<header class="sticky-header">
+			<nav class="main-nav">
+				<div class="nav-item brand active-home"><a href="index.html">Angela Ahn</a></div>
+				<div class="nav-item"><a href="work.html" class="nav-link">Work</a></div>
+				<div class="nav-item"><a href="about.html" class="nav-link">About</a></div>
+			</nav>
+		</header>
+		<main role="main" class="main-content flex-home">
+			<div class="hero">
+				<img class="hero-pic" src="images/home/profile.jpg" alt="boat and houses">
+				<h1 class="hero-text">ANGELA</h1>
 			</div>
-		</nav>
-
-		<main>
-			<div class="mainBackground">
-				<img src="DSC_0527.JPG">
-				<div class="imageOverlay">
-					<span class="caption">Hello - <br> My name is Angela <br> and I am a UX Designer.</span>
-				</div>
-			</div>
+			<p class="home-text">I love traveling. These are some of the pictures from my past trips.</p>
+			<img class="home-pic" src="images/home/1.jpg" alt="boats">
+			<p class="caption">Venice - Italy (2013)</p>
+			<img class="home-pic" src="images/home/2.jpg" alt="Bryce Canyon">
+			<p class="caption">Bryce Canyon - US (2016)</p>
+			<img class="home-pic" src="images/home/3.jpg" alt="Horses">
+			<p class="caption">Bryce Canyon - US (2016)</p>
+			<img class="home-pic" src="images/home/4.jpg" alt="Russian River">
+			<p class="caption">Russian River - US (2017)<br>We were the first in line at the Russian River brewery. We waited in the rain for 9 hours to try this year’s Pliny the Younger.</p>
+			<img class="home-pic" src="images/home/5.jpg" alt="Taipei 101">
+			<p class="caption">Taipei - Taiwan (2017)<br>View from Taipei 101</p>
+			<img class="home-pic" src="images/home/6.jpg" alt="Taipei Shadows">
+			<p class="caption">Taipei - Taiwan (2017)<br>Picture of our shadows</p>
+			<img class="home-pic" src="images/home/7.jpg" alt="Leathermaking">
+			<p class="caption">Taipei - Taiwan (2017)<br>Leathermaking</p>
+			<img class="home-pic" src="images/home/8.jpg" alt="Seattle">
+			<p class="caption">Seattle - US (2017)</p>
+			<img class="home-pic" src="images/home/9.jpg" alt="Mom in Zebra Slot Canyon">
+			<p class="caption">Zebra Slot Canyon in Utah - US (2017)<br>Mom ♥</p>
+			<img class="home-pic" src="images/home/10.jpg" alt="Me in Zebra Slot Canyon">
+			<p class="caption">Zebra Slot Canyon in Utah - US (2017)<br>Me!</p>
+			<iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/H-g0ic-84S0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p class="caption">Zebra Slot Canyon in Utah - US (2017)<br>My mom’s Youtube video</p>
+			<iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/OPDVZgLSQeE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p class="caption">Peek-a-Boo & Spooky Gulch in Utah - US (2017)</p>
+			<iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/hkSUTrxbGak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<p class="caption">Death Valley - US (2017)</p>
+			<img class="home-pic" src="images/home/11.jpg" alt="New Orleans">
+			<p class="caption">New Orleans - US (2018)</p>
+			<img class="home-pic" src="images/home/12.jpg" alt="Mammoth Mountain">
+			<p class="caption">Mammoth - US (2018)</p>
+			<img class="home-pic" src="images/home/13.jpg" alt="Fontaine-de-Vaucluse">
+			<p class="caption">Fontaine-de-Vaucluse - France (2019)</p>
+			<img class="home-pic" src="images/home/14.jpg" alt="Harder Kulm">
+			<p class="caption">Harder Kulm hike in Interlaken - Switzerland (2019)</p>
+			<img class="home-pic" src="images/home/15.jpg" alt="Lauterbrunnen">
+			<p class="caption">Lauterbrunnen - Switzerland (2019)</p>
+			<img class="home-pic" src="images/home/16.jpg" alt="Oktoberfest">
+			<p class="caption">Oktoberfest in Munich - Germany (2019)</p>
 		</main>
-
 		<footer>
-			<div>© 2017 Angela Ahn. All rights reserved.</div>
+			<p class="copyright">© 2021 Angela Ahn</p>
+			<ul class="contact-list">
+				<li class="contact-item"><a href="mailto:angelaashley@gmail.com" class="social-btn"><i class="fas fa-envelope fa-2x" aria-hidden="true"></i><span class="sr-only">email</span></a></li>
+				<li class="contact-item" aria-hidden="true"><a href="https://linkedin.com/in/angelahyejunahn" class="social-btn"><i class="fab fa-linkedin fa-2x"><span class="sr-only">LinkedIn</span></i></a></li>
+			</ul>
 		</footer>
 	</body>
 </html>
